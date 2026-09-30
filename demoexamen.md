@@ -16,11 +16,15 @@
 NOTE - BLUE, TIP - GREEN, IMPORTANT - PURPLE, WARNING - Yellow, CAUTION - Red   
 > Коммутаторы не имеют возможности настраиваться на nmtui поэтому его нужно настраивать на виртуальном коммутаторе openvswitch для добавления ip адресов и синхронизации VLAN
 ```diff
+- systemctl enable --now openvswitch #Включение утилиты для настройки виртуального коммутатора
 + ovs-vsctl add-br br0 #создание пустого виртуального коммутатора
 - ovs-vsctl add-port br0 ens18 #добавление портов и интерфейсов на которых будут синхронизированны порты
 + ovs-vsctl set port ens18 trunks=100,200,300, #объявление порта транковым для перечисленных VLAN
 - ovs-vsctl set port ens18 tag=100 #конфигурация как access-port и добавление tag
 + ovs-vsctl show #проверка настроек виртуального коммутатора
+- ovs-vsctl set-port br0 tag=157 #добавление tag управления для HQ-SW
++ ip addr add 192.168.40.2/29 dev br0 #добавление ip адрес на HQ-SW (айпи адрес настроенный на локальную сеть для управления)
+- ip link set br0 up #включение виртуального коммутатора
 ```
 **Linux #6**
 > [!NOTE]
