@@ -25,6 +25,7 @@ NOTE - BLUE, TIP - GREEN, IMPORTANT - PURPLE, WARNING - Yellow, CAUTION - Red
 - ovs-vsctl set-port br0 tag=157 #добавление tag управления для HQ-SW
 + ip addr add 192.168.40.2/29 dev br0 #добавление ip адрес на HQ-SW (айпи адрес настроенный на локальную сеть для управления)
 - ip link set br0 up #включение виртуального коммутатора
++ Мы не настраиваем tag на роутерах, только на клиентских машинах или серверах! (ovs-vsctl add-port ens19, ovs-vsctl add-port ens20, ovs-vsctl set port ens19 tag=100, ovs-vsctl set port ens20 tag=200)
 ```
 **Linux #6**
 > [!NOTE]
