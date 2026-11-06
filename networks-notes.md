@@ -110,4 +110,10 @@
 > Когда электрический сигнал добегал до конца кабеля по законам физики он ударяется об стенку и отскакивает назад создавая отраженную волну. Этот эхо-сигнал накладывался на остальные данные полностью глуша сеть, компьютеры переставали видеть друг друга.
 >
 > <img width="850" height="641" alt="opera_lUX2Hw1Hmv" src="https://github.com/user-attachments/assets/da374f5e-c229-4635-b1cd-0ddb56741486" />
+>
+> <img width="794" height="542" alt="opera_Gp5LhNbNEw" src="https://github.com/user-attachments/assets/776f2483-79ea-4937-9d5d-c46cfd6f601d" />
+>
+> <img width="788" height="564" alt="opera_yxh9QvwpSO" src="https://github.com/user-attachments/assets/f55428ba-e207-492f-949c-4d76af4374e8" />
+>
+**Тема 3**
 
