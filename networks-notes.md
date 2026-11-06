@@ -115,5 +115,5 @@
 >
 > <img width="788" height="564" alt="opera_yxh9QvwpSO" src="https://github.com/user-attachments/assets/f55428ba-e207-492f-949c-4d76af4374e8" />
 >
-**Тема 3**
+**Тема 3# Стеки протоколов TCP/IP**
 
