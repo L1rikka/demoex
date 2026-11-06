@@ -71,7 +71,7 @@
 >
 > <img width="1004" height="570" alt="opera_rf7yiIFlS3" src="https://github.com/user-attachments/assets/4418b4f4-2300-4348-9931-3808cc20fb92" />
 >
-:
+> <img width="625" height="567" alt="opera_q74AOhakaR" src="https://github.com/user-attachments/assets/f8901ae3-50e9-48f9-842f-092015e62bad" />
 >
 > **Классификация оптоволокна**
 > 
@@ -99,7 +99,7 @@
 >
 > <img width="1068" height="607" alt="opera_oH9mpHophl" src="https://github.com/user-attachments/assets/08ef1ca8-fc54-4146-9d30-0b4f00a4f36d" />
 >
-> <img width="1068" height="607" alt="opera_oH9mpHophl" src="https://github.com/user-attachments/assets/da676ce9-2eff-4d76-bf59-c9077c7dfae4" />
+> <img width="724" height="447" alt="opera_lQIBx4lwIz" src="https://github.com/user-attachments/assets/13bfcba0-4ff8-4e26-8e2e-887ee172d3ce" />
 >
 > **Коаксиальный кабель**
 > 
@@ -108,4 +108,6 @@
 > Это кабель с центральной жилой и экраном на концах которых терминал на 50 ом (маленькая заглушка для отсутствия эхо-сигнала и во избежания коллизии).
 > 
 > Когда электрический сигнал добегал до конца кабеля по законам физики он ударяется об стенку и отскакивает назад создавая отраженную волну. Этот эхо-сигнал накладывался на остальные данные полностью глуша сеть, компьютеры переставали видеть друг друга.
-> 
+>
+> <img width="850" height="641" alt="opera_lUX2Hw1Hmv" src="https://github.com/user-attachments/assets/da374f5e-c229-4635-b1cd-0ddb56741486" />
+
