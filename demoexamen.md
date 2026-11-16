@@ -160,8 +160,10 @@ NOTE - BLUE, TIP - GREEN, IMPORTANT - PURPLE, WARNING - Yellow, CAUTION - Red
 ```diff
 - dnf install dhcp-server -y
 - nano /etc/sysconfig/dhcpd - в этот файл добавляем сетевой интерфейс через который будет работать dhcp в конец файла добавляем (DHCPDARGS = ens19.200)
+- cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.backup - создание резервной копии файла dhcpd.conf
 - nano /etc/dhcp/dhcpd.conf - открываем конфигурационный файл dhcp и вводим параметры для выдачи адреса.
 - dhcpd -t -cf /etc/dhcp/dhcpd.conf - проверка dhcp конфигурации
+
 ```
 
 <img width="1256" height="774" alt="opera_RPePcvg9Gg" src="https://github.com/user-attachments/assets/4c9d4f44-5d65-484b-968c-dd788f1f1eec" />
@@ -171,5 +173,6 @@ NOTE - BLUE, TIP - GREEN, IMPORTANT - PURPLE, WARNING - Yellow, CAUTION - Red
 Что значат опции в настройке dhcp сервера:
 
 <img width="1170" height="270" alt="opera_sncJpZdfpK" src="https://github.com/user-attachments/assets/49d49ce6-6758-4738-ab76-3c77b16a421e" />
+
 
  
