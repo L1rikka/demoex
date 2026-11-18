@@ -216,7 +216,7 @@ NOTE - BLUE, TIP - GREEN, IMPORTANT - PURPLE, WARNING - Yellow, CAUTION - Red
 >
 > **su user** - переключение на пользователя user
 >
-> **sudo -l -U** - проверка результата
+> **sudo -l -U user** - проверка результата
 > 
 > <img width="579" height="140" alt="msedge_QsH7YTOtf1" src="https://github.com/user-attachments/assets/95b24bf4-a3e4-485e-9022-d8d7687db513" />
 
